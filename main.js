@@ -8,9 +8,9 @@ function checkfile(file) {
     let eks = appFileSlice.toUpperCase();
 
     if (eks == `JPEG`){
-        return `PNG формат стиснення зображень`
+        return `JPEG формат стиснення зображень`
     }else if (eks == `PNG`){
-        return `формат стиснення зображень з підтримкою прозорості`
+        return `PNG формат стиснення зображень з підтримкою прозорості`
     }else if (eks == `GIF`){
         return `GIF формат для анімованих зображень`
     }else if (eks == `BMP`){
